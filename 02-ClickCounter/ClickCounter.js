@@ -1,9 +1,12 @@
 const ClickCounter = () => {
-  let counter = 0
+  let counter = 0;
 
   return {
     getCounter() {
-      return counter
-    }
-  }
-}
+      return counter;
+    },
+    increase() {
+      counter++;
+    },
+  };
+};
